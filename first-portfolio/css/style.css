@@ -1,0 +1,267 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+h2:first-letter {
+  color: #007bc7;
+}
+
+h2.gray {
+  color: #444;
+  margin: 0;
+}
+
+h2.white {
+  color: #fff;
+  margin: 0;
+}
+
+/* Navigation */
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  z-index: 999;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  background-color: #007bc7;
+}
+
+nav h1 {
+  margin: auto 30px;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  margin-left: auto;
+  padding: 0;
+}
+
+nav ul li {
+  margin-right: 30px;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+  color: orange;
+}
+
+/* main */
+main {
+  margin-top: 80px;
+}
+
+.heading-container {
+  text-align: center;
+  padding: 60px 0 0 0;
+}
+
+.heading-container p.gray {
+  color: #444;
+  margin: 5px 0 0 0;
+}
+
+.heading-container p.white {
+  color: #fff;
+  margin: 5px 0 0 0;
+}
+
+.underbar {
+  width: fit-content;
+  margin: 0 auto;
+  border-bottom: 2px solid #007bc7;
+}
+
+.flex-container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+/* Header */
+article header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+  background-image: url(../img/fire_re.jpg);
+  background-size: cover;
+}
+
+article header p {
+  font-family: serif;
+  font-size: 2em;
+  color: white;
+}
+
+article header h1 {
+  font-family: serif;
+  color: white;
+}
+
+/* Profile */
+#profile {
+  width: 100%;
+  height: 560px;
+  padding-top: 80px;
+  margin-top: -80px;
+}
+
+.self-image {
+  width: 300px;
+  height: 300px;
+  margin-right: 80px;
+  background-image: url(../img/sunglasses.jpg);
+  background-size: cover;
+}
+
+table {
+  margin: auto 0;
+  color: #444;
+}
+
+table tr {
+  margin: 10 auto;
+}
+
+table th {
+  text-align: right;
+  padding: 10px 15px;
+}
+
+table td {
+  padding: 10px 15px;
+}
+
+/* Self PR */
+#selfpr {
+  float: left;
+  width: 100%;
+  height: 500px;
+  padding-top: 80px;
+  margin-top: -80px;
+}
+
+#selfpr-img {
+  width: 100%;
+  height: 500px;
+  background-image: url(../img/shibuki_re.jpg);
+  background-size: cover;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 80%;
+  padding: 30px;
+}
+
+.item {
+  box-sizing: border-box;
+  width: 240px;
+  height: 300px;
+  padding: 0 20px;
+  margin: 0 20px;
+  background-color: rgb(255, 255, 255, 0.9);
+}
+
+.item h3 {
+  text-align: center;
+  color: #007bc7;
+}
+
+.item p {
+  text-align: justify;
+  color: #444;
+}
+
+/* Vision */
+#vision {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  padding-top: 80px;
+  margin-top: -80px;
+}
+
+#vision p {
+  text-align: center;
+}
+
+.vision-statement {
+  font-size: 2em;
+  font-family: serif;
+  color: #007bc7;
+}
+
+.detail {
+  font-size: 1.2em;
+  font-family: serif;
+  line-height: 2em;
+  color: #444;
+}
+
+.next-commingsoon {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  font-size: 3em;
+  color: #007bc7;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 200px;
+  background-color: #007bc7;
+}
+
+footer div {
+  margin: 0 auto;
+}
+
+footer div a {
+  display: inline-block;
+  padding: 1em 3em;
+  text-decoration: none;
+  color: #fff;
+  border: #fff solid 3px;
+}
+
+footer div a:hover {
+  color: #007bc7;
+  background-color: #fff;
+}
+
+footer p {
+  text-align: center;
+  color: #fff;
+  padding-top: 1em;
+}
